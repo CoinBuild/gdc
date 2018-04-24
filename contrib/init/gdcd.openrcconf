@@ -1,0 +1,26 @@
+# /etc/conf.d/gdcd: config file for /etc/init.d/gdcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/gdc/gdc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/gdcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/gdcd.pid"
+
+# Where to write gdcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/gdcd"
+
+# User and group to own gdcd process
+#BITCOIND_USER="gdc"
+#BITCOIND_GROUP="gdc"
+
+# Path to gdcd executable
+#BITCOIND_BIN="/usr/bin/gdcd"
+
+# Nice value to run gdcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
